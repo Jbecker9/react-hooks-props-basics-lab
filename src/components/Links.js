@@ -1,14 +1,15 @@
-// import React from "react";
+import React from "react";
 
-// function Links(props){
-//     console.log(`I am here: ${props.info}`)
-//     return (
-//         <div id = "links">
-//             <h3>Links</h3>
-//             <a href={props.links.github}>{props.links.github}</a>
-//             <a href={props.links.linkedin}>{props.links.linkedin}</a>
-//         </div>
-//     )
-// }
+function Links(props){
+    console.log(`I am here: ${props.linkedin}`)
+    console.log(`git: ${props.github}`)
+    return (
+        <div id = "links">
+            <h3>Links</h3>
+            <a href={props.github}>{props.github}</a>
+            <a href={props.linkedin}>{props.linkedin}</a>
+        </div>
+    )
+}
 
-// export default Links
+export default Links
