@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       <Home props = {user}/>
       <About propBio = {user.bio}/>
-      <Links prop = {user}/>
+      {/* <Links > */}
     </div>
   );
 }
